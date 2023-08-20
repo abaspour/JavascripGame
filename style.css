@@ -1,0 +1,40 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+    height: 303px;
+}
+.child {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+}
+.moose {
+    background-color: brown;
+    background-image: url("./pic/moose.jpg");
+    background-size: cover;
+}
+.gridFood {
+    display: flex;
+    flex-wrap: wrap;
+    width: 406px;
+    height: 307px;
+    border: solid 1px red;
+
+}
+
+.food {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    background-image: url("./pic/blank.png");
+    background-size: cover;
+}
+.ball-border {
+    width : 400;
+    height: 250px;
+    border: solid 5px yellowgreen ;
+    position: absolute;
+    top:50px;
+    left: 320px;
+}
